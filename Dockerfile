@@ -2,7 +2,7 @@ FROM openshift/nodejs-010-centos7
 
 USER root
 #RUN curl --silent --location https://rpm.nodesource.com/setup | bash -
-RUN yum install -y nodejs npm
+RUN yum install -y nodejs
 RUN which npm 
 RUN npm install && npm install -g hubot coffee-script
 RUN hubot --create hubot
