@@ -1,6 +1,5 @@
 FROM openshift/nodejs-010-centos7
 
-RUN apt-get install npm
 ENV NPM_RUN=start \
     NODEJS_VERSION=0.10 \
     NPM_CONFIG_PREFIX=$HOME/.npm-global \
