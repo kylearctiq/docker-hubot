@@ -1,0 +1,21 @@
+[vagrant@rhel-cdk kylehubot]$ cat external-scripts.json 
+[
+  "hubot-diagnostics",
+  "hubot-help",
+  "hubot-google-images",
+  "hubot-google-translate",
+  "hubot-pugme",
+  "hubot-maps",
+  "hubot-redis-brain",
+  "hubot-rules",
+  "hubot-devops-reactions",
+  "hubot-victory",
+  "hubot-hamilton",
+  "hubot-voting",
+  "hubot-env",
+  "hubot-jenkins",
+  "hubot-ttc-alerts",
+  "hubot-standup-alarm",
+  "hubot-shipit"
+]
+[vagrant@rhel-cdk kylehubot]$ 
