@@ -1,4 +1,4 @@
-FROM openshift/nodejs:0.10
+FROM openshift/nodejs-010-centos7
 
 RUN npm install && npm install -g hubot coffee-script
 RUN hubot --create hubot
