@@ -1,4 +1,4 @@
-FROM asans/nodejs:0.10.15
+FROM openshift/nodejs:0.10
 
 RUN npm install -g hubot coffee-script
 RUN hubot --create hubot
