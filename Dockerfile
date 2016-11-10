@@ -1,5 +1,11 @@
 FROM openshift/nodejs-010-centos7
 
+RUN apt-get install npm
+ENV NPM_RUN=start \
+    NODEJS_VERSION=0.10 \
+    NPM_CONFIG_PREFIX=$HOME/.npm-global \
+    PATH=$HOME/node_modules/.bin/:$HOME/.npm-global/bin/:$PATH
+
 RUN npm install && npm install -g hubot coffee-script
 RUN hubot --create hubot
 RUN echo "[]" > hubot/hubot-scripts.json
