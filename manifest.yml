@@ -1,0 +1,8 @@
+[vagrant@rhel-cdk kylehubot]$ cat manifest.yml 
+applications:
+- buildpack: https://github.com/jthomas/nodejs-v4-buildpack.git
+  command: ./bin/hubot --adapter slack -n arctiqhubot -l "<@arctiqhubot>"
+  path: .
+  instances: 1
+  memory: 250M
+[vagrant@rhel-cdk kylehubot]$ 
