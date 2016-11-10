@@ -1,6 +1,5 @@
 FROM openshift/nodejs-010-centos7
 
-USER root
 RUN npm install && npm install -g hubot coffee-script
 RUN hubot --create hubot
 RUN echo "[]" > hubot/hubot-scripts.json
