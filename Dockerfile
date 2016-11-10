@@ -7,3 +7,5 @@ RUN apt-get install -y git
 RUN cd hubot && npm install hubot-irc --save && npm install
 
 CMD cd hubot && bin/hubot -a irc
+
+#./bin/hubot --name HubotOpenShift
