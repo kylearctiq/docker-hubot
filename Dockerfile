@@ -1,4 +1,4 @@
-FROM openshift/base-centos7
+FROM openshift/nodejs-010-centos7
 
 USER root
 #RUN curl --silent --location https://rpm.nodesource.com/setup | bash -
