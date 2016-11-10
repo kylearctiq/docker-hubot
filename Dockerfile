@@ -3,7 +3,7 @@ FROM centos7
 USER root
 #RUN curl --silent --location https://rpm.nodesource.com/setup | bash -
 RUN yum install -y nodejs
-RUN which npm
+RUN which npm 
 RUN npm install && npm install -g hubot coffee-script
 RUN hubot --create hubot
 RUN echo "[]" > hubot/hubot-scripts.json
