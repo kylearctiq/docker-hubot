@@ -1,6 +1,6 @@
 FROM openshift/nodejs:0.10
 
-RUN /bin/bash npm install -g hubot coffee-script
+RUN npm install && npm install -g hubot coffee-script
 RUN hubot --create hubot
 RUN echo "[]" > hubot/hubot-scripts.json
 RUN apt-get install -y git
