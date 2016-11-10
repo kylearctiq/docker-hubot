@@ -11,4 +11,5 @@ CMD cd hubot && bin/hubot -a irc
 
 #./bin/hubot --name HubotOpenShift
 #npm install -g yo generator-hubot
+#https://blog.openshift.com/hitchhikers-guide-to-tweetbots-hosting-a-hubot-on-openshift/
 
